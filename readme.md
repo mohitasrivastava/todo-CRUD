@@ -18,3 +18,7 @@ db.create_all()
 On SQLITE Viewer u can see DB online
 
 '''Add jinja template engine'''
+
+pip freeze > requirement.txt
+
+pip install -r requirement.txt
